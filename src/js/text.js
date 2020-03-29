@@ -20,7 +20,7 @@ function setBgGreet() {
         greeting.textContent = 'Good Afternoon';
     } else {
         //Evening         
-        document.body.style.backgroundImage = "url('../src/img/morning.jpg')"
+        document.body.style.backgroundImage = "url('../src/img/evening.jpg')"
         greeting.textContent = 'Good Evening';
         document.body.style.color = 'white';
     }
